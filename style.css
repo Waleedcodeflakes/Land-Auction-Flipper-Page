@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    font-family: Gordita;
+}
+/* CSS: Header section start */
+/* @font-face {
+    font-family: Gordita;
+    src: url(sansation_light.woff);
+  }
+  
+  div {
+    font-family: myFirstFont;
+  } */
+.page-body{
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    
+}
+
+/* .page-body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80%;
+    right: 10%;
+    height: -webkit-fill-available;
+
+    border-left: 2px dashed #c4a3ff;
+    border-right: 2px dashed #c4a3ff;
+} */
+.caution{
+    background-color: black;
+    color: white;
+}
+.h-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.caution h5{
+    padding: 12px 22px;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.header-nav{
+    text-align: center;
+    align-self: center;
+}
+.header-text{
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    align-self: center;
+}
+.header-nav ul li{
+    padding: 0px 15px;
+    display: inline;
+    list-style-type: none;
+    font-weight: 500;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color: #1e306e;
+}
+.header-btn{
+    margin-right: 8px;
+    text-align: center;
+    align-self: center;
+}
+input[type=button]{
+    background-color: rgb(3, 13, 5);
+    padding: 8px 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+/* CSS: Header section ends */
+/* CSS: Hero section start */
+.hero{
+    background-image: url('/images/building-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 200px 0px; 
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #122855;
+    padding-bottom: 18px;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: black;
+}
+/* CSS: Hero section ends */
+/* .buy-section{
+    width: 85%;
+    margin-top: -100px;
+    background-color: white;
+    
+} */
+/* CSS: Buy section details start */
+.buy-text p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 3%;
+    background-color: white;
+    padding: 5px 14px;
+}
+.buy-section-detail{
+    padding: 10px 0px;
+    padding-left: 60px;
+    background-color: white;
+}
+.buy-section-detail p{
+    text-align: center;
+    align-self: center;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 40px;
+    width: 3%;
+}
+.location, .type, .budget, .search-btn{
+    justify-content: flex-start;
+    width: 45%;
+}
+.search-btn{
+    text-align: center;
+    align-self: end;
+}
+.search-btn input{
+    background-color: rgb(23, 23, 68);
+    padding: 12px 30px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 8px;
+}
+svg{
+    border-left: 1px solid black ; 
+}
+.hint{
+    display: block;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 15px 0px;
+    font-weight: 350;
+}
+.buy-section{
+    box-shadow:0px 2px 7px 0px rgb(0 0 0 / 0.3);
+    margin: -120px;
+}
+/* CSS: Buy section details ends */
+/* CSS: Rating section details start */
+.rating{
+    width: 50%;
+}
+.rating-text{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.review-text p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #222;
+}
+.review-text a{
+    text-decoration: none;
+}
+.fa-solid, .fa-regular{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(226, 183, 41);
+    font-weight: 400;
+}
+.images img{
+    width: 12%;
+}
+.promotions{
+    margin-top: 160px;
+}
+/* CSS: Rating section details ends */
+/* CSS: States info buttons section start */
+.states-text{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 20px 0px;
+}
+.state-info-btns{
+    width: 100%;
+    margin: auto;
+}
+.state-info-btns input[type=button]{
+    background-color: rgb(16, 23, 55);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    border-radius: 20px;
+    margin: 10px 10px 10px 10px;
+}
+.row1 , .row2 , .row3{
+    text-align: center;
+    justify-content: center;
+}
+.state-info-btns input[type=button]:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+/* CSS: States info buttons section ends */
+/* CSS: Property info pictures section start */
+.property-deals-imgs a{
+    text-decoration: none;
+}
+.property-deals-text{
+    padding: 15px 0px;
+}
+.property-deals-text p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    color: #222;
+}
+.property-deals-imgs{
+    width: 100%;
+    margin: auto;
+}
+.property-deals-imgs img{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin: auto;
+}
+.property-price p{
+    padding: 17px 10px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2fa5fb;
+}
+.property-discount-price del{
+    padding-top: 17px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2fa5fb; 
+}
+.property-discount-price span{
+    padding-top: 17px;
+    padding-left: 10px;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #2fa5fb;
+    text-decoration: underline;
+}
+.property-detail p{
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #1e306e;
+}
+.property-detail{
+    padding-bottom: 8px;
+}
+.property-area{
+    justify-content: center;
+    text-align: center;
+}
+.property-area span{
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.img-hr{
+    border: 1px solid black;
+}
+.property-area .fa-regular{
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 12px;
+    color: black;
+}
+.img-area{
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+.sale-text{
+    left: 20px;
+    top: 20px;
+    right: auto;
+    margin: 0;
+    position: absolute;
+    border-radius: 3px;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 400;
+    padding: 1px 4px;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: #1e306e !important;
+    color: white !important;
+}
+/* CSS: Property info pictures section ends */
+/* CSS: Real eStates info section start */
+.real-estate{
+    padding-top: 80px;
+}
+.real-estate-heading{
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #222;
+    padding-bottom: 5px;
+}
+.real-estate-heading i{
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #222;
+}
+.real-estate-text{
+    width: 47%;
+}
+.real-estate-para1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #222;
+    padding: 10px 0px 30px 0px;
+}
+.real-estate-para2{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #222;
+    padding: 5px 0px;
+}
+.real-estate-heading2{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #222;
+    padding: 10px 0px;
+}
+.subsribe-links{
+    padding: 30px 0px 15px 5px;
+}
+.subscribe-links-text{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 12px;
+    width: 20%;
+    text-align: center;
+}
+.subscribe-links-text a{
+    text-decoration: none;
+    color: black;
+}
+.subscribe-links-btn{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+.subscribe-links-btn button{
+    color: white;
+    background-color: #122855;
+    padding: 5px 18px 5px 18px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.real-estate-image{
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.subscription-img img{
+    position: absolute;
+    right: 60%;
+    top: 15%;
+}
+.real-estate-image img{
+    align-self: center;
+    border-radius: 10px;
+}
+/* CSS: States info buttons section ends */
+/* CSS: New property deal section start */
+.new-property-deal{
+    background-color: #122855;
+    padding: 20px 0px;
+}
+.new-property-deal-text, .new-property-deal-input, .new-property-deal-button{
+    padding: 0px 10px;
+    margin: 0 10px;
+}
+.new-property-deal-text{
+    align-self: center;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.new-property-deal-input input{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #495057;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+    
+}
+.new-property-deal-button button{
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 70px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.new-property-deal-button button:hover{
+    background-color: white;
+}
+/* CSS: New property deal section ends */
+/* Contact information section start */
+.auction-presence-heading{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 600;
+    padding: 40px 0px 25px 0px;
+}
+.postal-address img{
+    width: 14px;
+    padding-right: 6px;
+}
+.postal-address{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 1px 0;
+    padding-right: 20px;
+}
+.search-by-heading{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.search-by-location{
+    font-size: 10px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.search-by-location a{
+    text-decoration: none;
+    color:#1e306e;
+    padding-right: 20px;
+}
+.search-by-location a:hover{
+    color: black;
+}
+/* Contact information section ends */
+.footer{
+    margin-top: 50px;
+}
+.auction-flipper{
+    width: 13%;
+}
+.auction-flipper img{
+    padding: 0px 0 30px 0;
+    width: 100%;
+}
+.flipper-text{
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 200;
+}
+.category{
+    width: 60%;
+    background-image: url('/images/Michael-jordan.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+}
+.select-option{
+    padding: 20px 0px 20px 50px;
+}
+.select-option select{
+    font-size: 12px;
+    font-weight: 400;
+    width: 50%;
+    padding: 6px;
+    border-radius: 4px;
+}
+.quote{
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 9px solid rgb(65, 65, 65);
+}
+.quote blockquote{
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #55595c;
+}
+.quote p{
+    color: #55595c;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.buttons{
+    width: 27%;
+}
+.buttons img{
+    width: 27%;
+}
+.text-links a{
+    text-decoration: none;
+    padding: 45px;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #1e306e;
+}
+.text-links a{
+    padding-left: 10px;
+}
+
+
+
+
+/* Helper CSS Classes */
+.ml-auto{
+    margin-left: auto !important;
+}
+.mr-auto{
+    margin-right: auto !important;
+}
+.w-70{
+    width: 70% !important;
+}
+.w-75{
+    width: 75% !important;
+}
+.d-flex{
+    display: flex;
+}

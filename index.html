@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Land Auctions Web Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/regular.min.css" integrity="sha512-k2UAKyvfA7Xd/6FrOv5SG4Qr9h4p2oaeshXF99WO3zIpCsgTJ3YZELDK0gHdlJE5ls+Mbd5HL50b458z3meB/Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="page-body">
+            <!-- Hero Section start -->
+            <section class="header">
+                <div class="caution">
+                    <div class="h-flex ml-auto mr-auto w-70">
+                        <div class="info">
+                            <h5>Call and Chat with us – we’re ready to answer all your questions</h5>
+                        </div>
+                        <div class="timing">
+                            <h5>8am-12am Central US Time (CDT) (CT)</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-content">
+                    <div class="h-flex ml-auto mr-auto">
+                        <div class="header-logo">
+                            <img src="/images/Flippers-Logo.png" alt="" width="50%">
+                        </div>
+                        <div class="header-text">
+                            <div class="header-nav">
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#auction">Auctions</a></li>
+                                    <li><a href="#borwse">Browse Properties</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#contact">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="header-btn">
+                                <form action="">
+                                    <input type="button" value="Login">
+                                    <input type="button" value="Cart">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero">
+                    <div class="ml-auto mr-auto w-70"> 
+                        <h1>Making Real Estate Simple.</h1>
+                        <p>Buy land & houses on easy monthly payment plans starting at only $75 down and no credit checks.</p>
+                    </div>
+                </div>
+                <div class="buy-section ml-auto mr-auto w-70">
+                    <div class="buy-text ml-auto mr-auto w-10">
+                        <p>Buy</p>
+                    </div>
+                    <div class="buy-section-detail h-flex ml-auto mr-auto">
+                        <div class="location">
+                            <p>Location</p>
+                            <form action="">
+                                <i class="fa-solid fa-location-dot" style="color: black;"></i>
+                                <select name="All" id="">
+                                    <option value="">All</option>
+                                    <option value="">Arizona</option>
+                                    <option value="">Arkansas</option>
+                                    <option value="">California</option>
+                                    <option value="">Colorado</option>
+                                    <option value="">Florida</option>
+                                    <option value="">Georgia</option>
+                                    <option value="">Illinois</option>
+                                    <option value="">Michigan</option>
+                                    <option value="">Mississippi</option>
+                                    <option value="">Missouri</option>
+                                    <option value="">Nevada</option>
+                                    <option value="">New Mexico</option>
+                                    <option value="">New York</option>
+                                    <option value="">Pennsylvania</option>
+                                    <option value="">South Carolina </option>
+                                    <option value="">Texas</option>
+                                    <option value="">Utah</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="type">
+                            <p>Type</p>
+                            <form action="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building" width="28" height="28" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <line x1="3" y1="21" x2="21" y2="21" />
+                                    <line x1="9" y1="8" x2="10" y2="8" />
+                                    <line x1="9" y1="12" x2="10" y2="12" />
+                                    <line x1="9" y1="16" x2="10" y2="16" />
+                                    <line x1="14" y1="8" x2="15" y2="8" />
+                                    <line x1="14" y1="12" x2="15" y2="12" />
+                                    <line x1="14" y1="16" x2="15" y2="16" />
+                                    <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+                                  </svg>
+                                <select>
+                                    <option value="all">All</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="budget">
+                            <p>Budget</p>
+                            <form action="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coin" width="28" height="28" viewBox="0 0 24 24" stroke-width="0.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
+                                    <path d="M12 6v2m0 8v2" />
+                                  </svg>
+                                <select name="" id="">
+                                    <option value="">All</option>
+                                    <option value="">$0 - $1000</option>
+                                    <option value="">$1000 - $5000</option>
+                                    <option value="">$5000 - $10,000</option>
+                                    <option value="">$10,000 - $999,000</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="search-btn">
+                            <form action="">
+                                <input type="button" value="Search">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="hint">
+                        <p>Search by Parcel</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Header section ends -->
+            <!-- Images section start -->
+            <section class="images-sec">
+            <div class="promotions h-flex">    
+                <div class="h-flex ml-auto mr-auto w-70">
+                    <div class="rating">
+                        <div class="rating-icons">
+                            <span class="rating-text">4.8</span>
+                            <i class="fa-solid fa-star"></i>                                      
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                        </div>
+                        <div class="review-text">
+                            <p>Based on 38 reviews <a href="">View All</a></p>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <img src="/images/business-img.png" alt="">
+                        <img src="/images/google-news.png" alt="">
+                        <img src="/webp-imgs/market-img.webp" alt="">
+                        <img src="/images/cision-img.png" alt="">
+                        <img src="/images/daily-ledger.png" alt="">
+                        <img src="/webp-imgs/newswires-img.webp" alt="">
+                        <img src="/webp-imgs/herald-img.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- Images section ends -->
+            <!-- States info section start -->
+            <section class="states">
+                    <div class="states-info ml-auto mr-auto w-70">
+                        <div class="states-text ">
+                            <p>Popular States</p>
+                        </div>
+                        <div class="state-info-btns">
+                            <div class="row1">
+                                <form action="">
+                                    <a href="#"><input type="button" value="Arizona"></a>
+                                    <a href="#"><input type="button" value="Arkansas"></a>
+                                    <a href="#"><input type="button" value="California"></a>
+                                    <a href="#"><input type="button" value="Colorado"></a>
+                                    <a href="#"><input type="button" value="Florida"></a>
+                                    <a href="#"><input type="button" value="Georgia"></a>
+                                    <a href="#"><input type="button" value="Illinois"></a>
+                                    <a href="#"><input type="button" value="Michigan"></a>
+                                </form>
+                            </div>
+                            <div class="row2">
+                                <form action="">
+                                    <a href="#"><input type="button" value="Mississippi"></a>
+                                    <a href="#"><input type="button" value="Missouri"></a>
+                                    <a href="#"><input type="button" value="Nevada"></a>
+                                    <a href="#"><input type="button" value="New Mexico"></a>
+                                    <a href="#"><input type="button" value="New York"></a>
+                                    <a href="#"><input type="button" value="Pennsylvania"></a>
+                                    <a href="#"><input type="button" value="South Carolina"></a>
+                                </form>
+                            </div>
+                            <div class="row3">
+                                <a href="#"><input type="button" value="Texas"></a>
+                                <a href="#"><input type="button" value="Utah"></a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- States info section ends -->
+            <!-- Properties info section start -->
+            <section class="property-info">
+                <div class="property-deals ml-auto mr-auto w-70">
+                    <div class="property-deals-text">
+                        <p>Discover Property Deals</p>
+                    </div>
+                    <div class="property-deals-imgs">
+                        <div class="images-row1 h-flex">
+                            <div class="img-area">
+                                <a href="#">
+                                    <img src="/Map-images/Flippers-map.png" alt="">
+                                    <div class="property-price">
+                                        <p>$19,995.00</p>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>Apache Country Package Deal, 6 Lots</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                     <img src="/Map-images/Flipper-img2.jpg" alt="">
+                                     <div class="property-price">
+                                        <p>$10,000.00</p>
+                                     </div>
+                                     <div class="property-detail">
+                                        <p>Arkansas Package Deal (20 Lots)</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                     <div class="property-area">
+                                         <i class="fa-regular fa-vector-square"></i>
+                                         <span>0.37 Acres</span>
+                                     </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                     <img src="/Map-images/Flipper-img3.png" alt="">
+                                     <div class="property-price">
+                                        <p>$9,750.00</p>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>Arkansas Package Deal (15 Lots)</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>0.37 Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                    <img src="/Map-images/Flipper-img3.png" alt="">
+                                    <div class="property-price">
+                                        <p>$7,500.00</p>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>Arkansas Package Deal (10 Lots)</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>0.37 Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="property-deals-imgs">
+                        <div class="images-row1 h-flex">
+                            <div class="img-area">
+                                <a href="#">
+                                    <img src="/Map-images/Flipper-img4.jpg" alt="">
+                                    <div class="property-price">
+                                        <p>$6,300.00</p>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>6HFR+998 Big River, California 92242</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>5 Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                     <img src="/Map-images/Flipper-img5.webp" alt="">
+                                     <div class="property-price">
+                                        <p>$95,000.00</p>
+                                     </div>
+                                     <div class="property-detail">
+                                        <p>Commercial Property For Sale In Salt Point, NY</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                     <div class="property-area">
+                                         <i class="fa-regular fa-vector-square"></i>
+                                         <span>0.38 Acres</span>
+                                     </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                     <img src="/Map-images/Flipper-img4.jpg" alt="">
+                                     <div class="property-price">
+                                        <p>$6,300.00</p>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>MRVV+WFX Ludlow, California 92338</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>5 Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="img-area">
+                                <a href="#">
+                                    <div class="sale-text">SALE!</div>
+                                    <img src="/Map-images/Flipper-img6.png" alt="">
+                                    <!-- <span class="sale-text">Sale!</span> -->
+                                    <div class="property-discount-price">
+                                        <p><del>$100,000.00</del></p>
+                                        <span>$99,000.00</span>
+                                    </div>
+                                    <div class="property-detail">
+                                        <p>Outlot 183rd St, Tinley Park, IL 60487</p>
+                                    </div>
+                                    <hr class="img-hr">
+                                    <div class="property-area">
+                                        <i class="fa-regular fa-vector-square"></i>
+                                        <span>13.93 Acres</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Properties info section ends -->
+            <!-- Real Estate section start -->
+            <section class="real-estate h-flex mr-auto ml-auto w-70">
+                <div class="real-estate-text">
+                    <div class="real-estate-heading">
+                        <p>Market Any Real Estate To <br><i> Reach Buyers</i> All Over The World!</p>
+                    </div>
+                    <div class="real-estate-img">
+                        <img src="Map-images/world-img.png" alt="">
+                    </div>
+                    <div class="real-estate-para1">
+                        <p>Sell for more money! Get your property listed on Auction with your minimal reserved price. You decide what offer you are willing to accept and anything over that is your extra income.</p>
+                    </div>
+                    <div class="real-estate-heading2">
+                        <p>Global Marketing</p>
+                    </div>
+                    <div class="real-estate-para2">
+                        <p>Our unique marketing reach also focuses on the global market, connecting your properties to buyers in other parts of the world.</p>
+                    </div>
+                    <div class="real-estate-heading2">
+                        <p>With over thousands of visits per month</p>
+                    </div>
+                    <div class="real-estate-para2">
+                        <p>Around 5k potential new customers per month, you’ll have the ability to connect with the wide range of investors, buyers, sellers, and other real estate professionals.</p>
+                    </div>
+                    <div class="real-estate-heading2">
+                        <p>Cancel Anytime</p>
+                    </div>
+                    <div class="real-estate-para2">
+                        <p>Gain instant access and list your properties with no commitment, you may cancel at any time.</p>
+                    </div>
+                    <div class="subsribe-links d-flex">
+                        <div class="subscribe-links-text">
+                            <a href="#"><p><i> Explore<br> Subscription</i></p></a>
+                        </div>
+                        <div class="subscribe-links-btn">
+                            <a href="#"><button>Get Started</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="real-estate-image">
+                    <div class="subscription-img">
+                        <a href="#"><img src="/images/subscription-img.webp" alt="" style="z-index: 1;"></a>
+                    </div>
+                    <img src="/images/building-realestate.jpg" alt="">
+                </div>
+            </section>
+            <!-- Real Estate section ends -->
+            <!-- New property deal section start -->
+            <section class="new-property-deal">
+                <div class="new-property-deal-content d-flex ml-auto mr-auto w-70">
+                    <div class="new-property-deal-text">
+                        <p>Receive New Property Deals By Joining Our VIP List</p>
+                    </div>
+                    <div class="new-property-deal-input">
+                        <form action="">
+                            <input type="email" placeholder="Enter your email" >
+                        </form>
+                    </div>
+                    <div class="new-property-deal-button">
+                        <button>Search</button>
+                    </div>
+                </div>
+            </section>
+            <!-- New property deal section ends -->
+            <!-- Contact information section start -->
+            <section class="auction-presence">
+                <div class="auction-presence-content mr-auto ml-auto w-70">
+                    <div class="auction-presence-heading">
+                        <p>Auction Flippers Presence</p>
+                    </div>
+                    <div class="auction-presence-contacts d-flex">
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 457 Laurence Dr STE 111 Heath, TX 75032</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 13400 S Route 59 STE 116-226 Plainfield IL 600586</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/gb-flag.svg" alt="">
+                            <p> C/O Unit 7 Spitfire Business Park, Northfield Road, Market Deeping, PE6 8GY</p>
+                        </div>
+                    </div>
+                    <div class="usa-contact d-flex postal-address">
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/philpine-flag.svg" alt="">
+                            <p> 4/F Unit 2C, One E-Com Center Building, Ocean Drive, Mall Of Asia Complex, Pasay, 0, Philippines</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 610 E Zack St. Suite 110-4113 Tampa, FL 33602</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 4780 I-55 N Suite 100 – 1075 Jackson, MS 39211</p>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="usa-contact d-flex postal-address">
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/pak.svg" alt="">
+                            <p> Office# B-5, 2nd Floor, Opp: United Bank Limited, College Rd, 22010, Abbottabad, Pakistan</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 20715 N Pima Road, Suite 108 #1034 Scottsdale, AZ 85255</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 2395 Prince St #1037 Conway, AR 72034</p>
+                        </div>
+                    </div>
+                    <div class="usa-contact d-flex postal-address">
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 330 E Costilla St #1041 Colorado Springs, CO 80903</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 1550 W Horizon Ridge Pkwy R Suite #R 739 Henderson, NV 89012</p>
+                        </div>
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 453 S Spring Street Ste 400 #1128, Los Angeles, CA 90013</p>
+                        </div>
+                    </div>
+                    <div class="usa-contact d-flex postal-address">
+                        <div class="usa-contact d-flex postal-address">
+                            <img src="/images/usa-flag.svg" alt="">
+                            <p> 11720 Amber Park Dr Ste 160 #1279, Alphaberta, GA 30009</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-by-sec">
+                    <div class="search-by-heading w-70 ml-auto mr-auto">
+                        <p>Search by States</p>
+                    </div>
+                    <div class="search-by-location d-flex w-70 ml-auto mr-auto">           
+                        <a href="#"><p>Land For Sale In Arizona</p></a>
+                        <a href="#"><p>Land For Sale In Arkansas</p></a>
+                        <a href="#"><p>Land For Sale In California</p></a>
+                        <a href="#"><p>Land For Sale In Colorado</p></a>
+                        <a href="#"><p>Land For Sale In Florida</p></a>
+                        <a href="#"><p>Land For Sale In Georgia</p></a>
+                        <a href="#"><p>Land For Sale In Illinois</p></a>
+                    </div>
+                    <div class="search-by-location d-flex w-70 ml-auto mr-auto">           
+                        <a href="#"><p>Land For Sale In Michigane</p></a>
+                        <a href="#"><p>Land For Sale In Mississippi</p></a>
+                        <a href="#"><p>Land For Sale In Missouri</p></a>
+                        <a href="#"><p>Land For Sale In Nevada</p></a>
+                        <a href="#"><p>Land For Sale In New Mexico</p></a>
+                        <a href="#"><p>Land For Sale In New York</p></a>
+                        <a href="#"><p>Land For Sale In Pennsylvania</p></a>
+                    </div>
+                    <div class="search-by-location d-flex w-70 ml-auto mr-auto">           
+                        <a href="#"><p>Land For Sale In Carolina</p></a>
+                        <a href="#"><p>Land For Sale In Texas</p></a>
+                        <a href="#"><p>Land For Sale In Utah</p></a>
+                    </div>
+                </div>
+            </section>
+            <!-- Contact information section start -->
+            <section class="footer">
+                <div class="footer-content w-70 ml-auto mr-auto d-flex">
+                    <div class="auction-flipper">
+                        <div class="flipper-img">
+                            <img src="/images/auctiom-text.png" alt="">
+                        </div>
+                        <div class="flipper-text">
+                            <p>Buy land & houses on easy monthly payment plans starting at only $75 down and no credit checks.</p>
+                        </div>
+                    </div>
+                    <div class="category">
+                        <div class="select-option">
+                            <form action="">
+                                <select>
+                                    <option value="Select a Category">Select a category</option>
+                                    <option value="Auction">Auction</option>
+                                    <option value="Cheap Land for Sale Below $1000">Cheap Land for Sale Below $1000</option>
+                                    <option value="Commercial Properties for Sale">Commercial Properties for Sale</option>
+                                    <option value="Hot Deals">Hot Deals</option>
+                                    <option value="Houses For Sale">Houses For Sale</option>
+                                    <option value="Land For Sale">Land For Sale</option>
+                                    <option value="LV">LV</option>
+                                    <option value="Packages">Packages</option>
+                                    <option value="Sold">Sold</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="quote">
+                            <blockquote>Some people want it to happen, some wish it would happen, others make it happen.</blockquote>
+                            <p>Michael Jordan</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <div class="images">
+                            <img src="/images/premium-partner.png" alt="">
+                            <a href="#"><img src="/images/applestore.png" alt=""></a>
+                            <a href="#"><img src="/images/playstore.png" alt=""></a>
+                        </div>
+                        <div class="text-links d-flex">
+                            <a href="#"><p>Privacy Policy</p></a>
+                            <a href="#"><p>Terms and Conditions</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="caution">
+                    <div class="h-flex ml-auto mr-auto w-70">
+                        <div class="info">
+                            <h5>© Legal 2022 Auction Flippers TM – Land Auctions, Land for Sale by Owner, Home Auctions, Affordable Houses for Sale.</h5>
+                        </div>
+                        <div class="timing">
+                            <h5>Call Us (877) 434-9222</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </body>
+</html>
